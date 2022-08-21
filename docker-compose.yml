@@ -14,7 +14,7 @@ services:
     container_name: node_drivenops_app
     build: ./back-end
     ports:
-      - 80:5000
+      - 5000:5000
     depends_on:
       - postgres_drivenops_db
     env_file:
