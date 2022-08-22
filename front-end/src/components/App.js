@@ -10,7 +10,7 @@ function App() {
       const response = await axios.get(`${API_URL}/students/random`);
       const student = response.data;
       if (!student) {
-        alert("Putz! Não há estudantes cadastrados para o sorteio!");
+        alert("Vacilo! Não há estudantes cadastrados para o sorteio! =(");
       } else {
         setStudent(student);
       }
@@ -19,7 +19,7 @@ function App() {
     }
   }, []);
 
-  return student ? <h1>{student.name}</h1> : "Carregandooo...";
+  return student ? <h1>{student.name}</h1> : "Carregandoo0o0oo...";
 }
 
 export default App;
