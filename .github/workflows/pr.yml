@@ -17,4 +17,4 @@ jobs:
           file_name: .env.test
           fail_on_empty: true
       - name: Run Tests
-        run: docker-compose -f docker-compose-test.yml run node_drivenops_app
+        run: docker-compose -f docker-compose-test.yml run node_drivenops_app run test
