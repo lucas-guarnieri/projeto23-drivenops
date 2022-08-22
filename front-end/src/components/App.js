@@ -19,7 +19,7 @@ function App() {
     }
   }, []);
 
-  return student ? <h1>{student.name}</h1> : "Carregandooo...";
+  return student ? <h1>{student.name}</h1> : "Tá carregandoo...";
 }
 
 export default App;
