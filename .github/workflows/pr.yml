@@ -1,4 +1,4 @@
-name: Pull request
+name: Pullrequest
 on: [pull_request]
 jobs:
   Validation-Tests:
